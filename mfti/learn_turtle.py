@@ -194,13 +194,66 @@ turtle.shape('turtle')
 
 # ! Пружина
 
+# n = 4
+# r1 = -50
+# r2 = -10
 
+# turtle.left(90)
+
+# for i in range(n):
+# 	turtle.circle(r1, 180)
+# 	turtle.circle(r2, 180)
 
 # ! Smile
 
-
+# turtle.left(90)
+# turtle.fillcolor('yellow')
+# turtle.begin_fill()
+# turtle.circle(100)
+# turtle.end_fill()
+# turtle.penup()
+# turtle.goto(-125, 50)
+# turtle.pendown()
+# turtle.fillcolor('blue')
+# turtle.begin_fill()
+# turtle.circle(10)
+# turtle.end_fill()
+# turtle.penup()
+# turtle.goto(-50, 50)
+# turtle.pendown()
+# turtle.fillcolor('blue')
+# turtle.begin_fill()
+# turtle.circle(10)
+# turtle.end_fill()
+# turtle.penup()
+# turtle.goto(-100, 25)
+# turtle.pendown()
+# turtle.fillcolor('black')
+# turtle.left(180)
+# turtle.begin_fill()
+# turtle.width(10)
+# turtle.forward(50)
+# turtle.end_fill()
+# turtle.penup()
+# turtle.goto(-50, -25)
+# turtle.pendown()
+# turtle.color('red')
+# turtle.width(10)
+# turtle.left(180)
+# turtle.circle(50, -180)
 
 # ! Stars
 
+# ab = 200
 
+# turtle.left(180)
 
+# def star(n):
+# 	a = 180 / n
+# 	turn = 180 - a
+
+# 	for i in range(n):
+# 		turtle.forward(ab)
+# 		turtle.left(turn)
+
+# star(11)
