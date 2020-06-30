@@ -5,7 +5,21 @@ from pyrob.api import *
 
 @task(delay=0.01)
 def task_6_6():
-	pass
+	count = 0
+	while True:
+		# move_right()
+		while not wall_is_on_the_right():
+			move_right()
+			if not wall_is_above():
+				while not wall_is_above():
+					move_up()
+					fill_cell()
+				while not wall_is_beneath():
+					move_down()
+			count +=1
+		move_left(count)
+
+		break
 
 
 if __name__ == '__main__':
