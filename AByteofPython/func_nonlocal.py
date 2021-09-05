@@ -5,7 +5,8 @@ def func_outer():
 	print('x равно', x)
 
 	def func_inner():
-		global x
+		nonlocal x
+#		global x
 		x = 5
 
 	func_inner()
