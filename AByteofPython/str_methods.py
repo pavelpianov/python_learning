@@ -6,7 +6,7 @@ if name.startswith('Swa'):
 if 'a' in name:
 	print('Да, она содержит строку "a"')
 
-if name.find('war') != -1:
+if name.find('war') != -1: #find используется для определения позиции данной подстроки в строке; find возвращает -1, если подстрока не обнаружена
 	print('Да, она содержит строку "war"')
 
 delimiter = '_*_'
